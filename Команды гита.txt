@@ -9,3 +9,12 @@
 
 Коммит (фиксация изменений)
     git commit -m "Initial commit."
+
+Подключиться к удаленному репозиторию 
+    git remote add origin https://github.com/MynameIsBoxxy/git.git
+    origin это имя которые мы даем
+
+Отправка изменений на сервер
+    git push origin master
+    origin - имя удаленного репозитория, которое мы дали при подключении
+    master -  ветка по умолчанию для всех репозиториев
