@@ -18,3 +18,15 @@
     git push origin master
     origin - имя удаленного репозитория, которое мы дали при подключении
     master -  ветка по умолчанию для всех репозиториев
+
+Клонирование репозитория 
+    git clone https://github.com/MynameIsBoxxy/git.git
+
+Создание ветки
+    git branch имя
+    git checkout -b имя (сразу переключится)
+
+Слияние веток
+    git merge second
+    Сливаем ветка, на которое находимся, с веткой second
+    
