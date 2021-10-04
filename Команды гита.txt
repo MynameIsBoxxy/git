@@ -10,6 +10,8 @@
 Коммит (фиксация изменений)
     git commit -m "Initial commit."
 
+git commit -a -m 'Add new benchmarks' === git add git commit
+
 Подключиться к удаленному репозиторию 
     git remote add origin https://github.com/MynameIsBoxxy/git.git
     origin это имя которые мы даем
@@ -18,3 +20,29 @@
     git push origin master
     origin - имя удаленного репозитория, которое мы дали при подключении
     master -  ветка по умолчанию для всех репозиториев
+
+Клонирование репозитория 
+    git clone https://github.com/MynameIsBoxxy/git.git
+
+Создание ветки 
+    git branch имя
+    git checkout -b имя (сразу переключится)
+
+Слияние веток
+    git merge second
+    Сливаем ветка, на которое находимся, с веткой second
+    
+Удалить ветку 
+    git branch -d имя ветки
+
+********************** ОТМЕНА *****************************
+Сделали коммит но забыли добавить файл. Добавляем файл в тот же коммит:   
+
+git commit -m 'Initial commit'
+git add forgotten_file
+git commit --amend
+
+
+В итоге получится единый коммит — второй коммит заменит результаты первого.
+
+***********************************************************
