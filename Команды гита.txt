@@ -1,0 +1,11 @@
+Добавить все файлы или один для отслеживания
+    git add . / git add имя файла
+
+Отменить изменения после сохранения файла
+    git checkout -- . / git checkout -- file name
+
+Убрать файл из индекса 
+    git reset HEAD <файл>…
+
+Коммит (фиксация изменений)
+    git commit -m "Initial commit."
